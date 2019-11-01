@@ -28,6 +28,8 @@ Book.prototype.revise = function(newYear) {
 const book1 = new Book('Book One', 'John Doe', '2013');
 const book2 = new Book('Book Two', 'Jane Doe', '2016');
 
+console.log(book2.getSummary());
+console.log(book1.getAge());
 console.log(book2);
 book2.revise('2019');
 console.log(book2);

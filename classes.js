@@ -29,8 +29,8 @@ class Book {
 
 const book1 = new Book('Book One', 'John Doe', '2013');
 
-// console.log(book1);
-// book1.revise('2018');
-// console.log(book1);
+console.log(book1);
+book1.revise('2018');
+console.log(book1);
 
 console.log(Book.topBookStore());
