@@ -19,7 +19,7 @@ function Magazine(title, author, year, month) {
   this.month = month;
 }
 
-// Inherite prototype methods of Book.
+// Inheritance prototype methods of Book.
 Magazine.prototype = Object.create(Book.prototype);
 
 // Instantiate Magazine Object

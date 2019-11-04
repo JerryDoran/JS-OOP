@@ -1,6 +1,6 @@
 /* jshint esversion: 6 */
 
-// Constructor
+// Constructor represents the Book class
 function Book(title, author, year) {
   this.title = title;
   this.author = author;
